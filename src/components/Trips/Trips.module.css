@@ -1,0 +1,13 @@
+.trips_container{
+    padding: 25px 10px 25px 50px;
+    width: 70%;
+}
+.header{
+    font-size: 26px;
+}
+.search_filter_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 50px 0 40px 0;
+}

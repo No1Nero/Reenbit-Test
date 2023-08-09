@@ -1,0 +1,40 @@
+.forecast_container{
+    background-image: url("../../media/forecast-background.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    left: 70%;
+    width: 30%;
+    height: 100vh;
+}
+.forecast_datetime{
+    font-size: 26px;
+    font-weight: 600;
+}
+.forecast_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon_forecast_container{
+    display: flex;
+    align-items: center;
+}
+.forecast_temp{
+    font-size: 64px;
+    margin-left: 10px;
+}
+.forecast_city{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.forecast_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100%;
+}

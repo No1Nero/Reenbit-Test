@@ -1,0 +1,26 @@
+.item_container{
+    width: 200px;
+    height: 280px;
+    border: 1px solid rgb(233, 228, 228);
+    margin: 0 35px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.item_image{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.item_data_container{
+    padding: 0px 20px;
+}
+.item_city{
+    font-size: 17px;
+    font-weight: 600;
+}
+.item_date{
+    color: gray;
+}
+.selected_trip_item_wrapper{
+    border: 1px solid rgb(73, 73, 255);
+}

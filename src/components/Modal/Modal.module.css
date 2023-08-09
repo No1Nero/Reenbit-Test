@@ -1,0 +1,100 @@
+.modal_window{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_blur{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    position: absolute;
+}
+.modal_content{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #000;
+    z-index: 110;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal_header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(233, 228, 228);
+    height: 50px;
+}
+.modal_exit_button{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.modal_inputs_container{
+    padding: 40px 25px;
+}
+.modal_input_container{
+    margin-bottom: 25px;
+}
+.modal_input_title{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.modal_input_title::before{
+    content: '*';
+    color: red;
+    margin-right: 3px;
+}
+.modal_input{
+    min-height: 38px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}
+.button_container{
+    border-top: 1px solid rgb(233, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    padding: 0 20px;
+}
+.modal_button_save{
+    height: 35px;
+    width: 60px;
+    border: none;
+    background-color: rgb(73, 73, 255);
+    color: #fff;
+    cursor: pointer;
+}
+.modal_button_save:disabled{
+    background-color: rgb(233, 228, 228);
+    color: gray;
+}
+.modal_button_cancel{
+    height: 35px;
+    width: 75px;
+    border: 1px solid rgb(233, 228, 228);
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}

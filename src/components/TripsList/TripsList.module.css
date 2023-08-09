@@ -1,0 +1,48 @@
+.trips_list_container{
+    display: flex;
+    align-items: flex-start;
+}
+.slider_container{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.add_trip_container{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(233, 228, 228, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.add_trip_plus{
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+.add_trip_title{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.slider_arrow{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 73, 255);
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.slider_arrow:disabled{
+    background-color: rgba(233, 228, 228, 0.6);
+    color: gray;
+}

@@ -1,0 +1,29 @@
+.countdown_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+.countdown_time_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.countdown_time_container:first-child{
+    padding-left: 50px;
+}
+.countdown_time_container:last-child{
+    padding-right: 50px;
+}
+.countdown_time{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.countdown_title{
+    font-size: 12px;
+    margin-top: 2px;
+}

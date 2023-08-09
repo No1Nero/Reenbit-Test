@@ -1,0 +1,13 @@
+.forecast_header{
+    font-size: 20px;
+    padding: 50px 0;
+}
+.no_forecast{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: gray;
+}
+.forecast_slider{
+    width: 85%;
+}
